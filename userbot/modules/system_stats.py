@@ -63,7 +63,7 @@ async def bot_ver(event):
             revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
             await event.edit(
-                f"`Paperplane Version: {verout}`\n" f"`Revision: {revout}`"
+                f"`Omega Version: {verout}`\n" f"`Revision: {revout}`"
             )
         else:
             await event.edit("Install git on the host first!")
@@ -124,7 +124,7 @@ async def amireallyalive(alive):
         db = "Databases functioning normally!"
     await alive.edit(
         "`"
-        "Paperplane is running!\n\n"
+        "Omega  is running!\n\n"
         f"Telethon version: {version.__version__} \n"
         f"Python version: {python_version()} \n"
         f"User: {DEFAULTUSER} \n"
@@ -163,7 +163,7 @@ CMD_HELP.update(
         "system stats": [
             "System Stats",
             " - `.sysd`: Show system information using neofetch.\n"
-            " - `.botver`: Show Paperplane version.\n"
+            " - `.botver`: Show Omega version.\n"
             " - `.pip <module(s)>`: Search module(s) in PyPI.\n"
             " - `.alive`: Check if Paperplane is running. \n"
             " - `.aliveu <new_user>`: Change the user name in .alive command (aesthetics change only)\n"
