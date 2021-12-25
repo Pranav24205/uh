@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
-""" Paperplane module for kanging stickers or making new ones. """
+""" Omega module for kanging stickers or making new ones. """
 
 import io
 import math
@@ -446,12 +446,12 @@ CMD_HELP.update(
         "kang": [
             "Kang",
             " - `.kang <emoji> <number>`: Reply .kang to a sticker or an image to kang "
-            "it to your Paperplane pack. Animated stickers are also supported.\n"
+            "it to your omega pack. Animated stickers are also supported.\n"
             "If emojis are sent, they will be used as the emojis for the sticker.\n"
             "If a number is sent, the emoji will be saved in the pack corresponding to that number. "
             "Otherwise, Paperplane will use an available pack name with the lowest number.\n"
             " - `.kangpack <number>`: Reply .kangpack to a sticker to kang the whole pack the sticker "
-            "is in as a new Paperplane pack. The new pack will have all of the stickers from the "
+            "is in as a new omega pack. The new pack will have all of the stickers from the "
             "kanged pack, with their corresponding emoji and order. Animated packs are also supported.\n"
             "If a number is sent, the emoji will be saved in the pack corresponding to that number. "
             "Otherwise, Paperplane will use an available pack name with the lowest number.\n"
