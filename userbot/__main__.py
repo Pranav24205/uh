@@ -30,8 +30,8 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info(
-    "Paperplane is running! Test it by typing .alive on any chat."
-    " Should you need assistance, head to https://t.me/tgpaperplane."
+    "Omeg  is running! Test it by typing .alive on any chat."
+    " Should you need assistance, head to https://t.me/ItS_PraNav_xD."
 )
 
 SEM_TEST = os.environ.get("SEMAPHORE", None)
